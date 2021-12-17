@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
 .container
 {
@@ -18,14 +20,17 @@
     display: flex;
 }
 .image_container{
-    flex:0.5;
+    flex:0.7;
     background-image: url("profile.jpg");
     background-repeat:no-repeat;
-    clip-path: polygon(0% 0%,50% 0%,100% 50%,50% 100%,0% 100%);
+    clip-path: polygon(0% 0%,75% 0%,100% 50%,75% 100%,0% 100%);
     background-position:50%;
 }
-.info_container{
-    flex:0.5;
+.main_container{
+    flex:0.3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .sidebar_heading{
     text-align: center;
